@@ -1,0 +1,15 @@
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/ScheduleAnywhere.Services.csproj.AssemblyReference.cache
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/ScheduleAnywhere.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/ScheduleAnywhere.Services.AssemblyInfoInputs.cache
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/ScheduleAnywhere.Services.AssemblyInfo.cs
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/ScheduleAnywhere.Services.csproj.CoreCompileInputs.cache
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/bin/Debug/net10.0/ScheduleAnywhere.Services.deps.json
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/bin/Debug/net10.0/ScheduleAnywhere.Services.dll
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/bin/Debug/net10.0/ScheduleAnywhere.Services.pdb
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/bin/Debug/net10.0/ScheduleAnywhere.Core.dll
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/bin/Debug/net10.0/ScheduleAnywhere.Core.pdb
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/Schedule.D8A8544D.Up2Date
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/ScheduleAnywhere.Services.dll
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/refint/ScheduleAnywhere.Services.dll
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/ScheduleAnywhere.Services.pdb
+/Users/rgurrala/Documents/ScheduleAnywhere/repos/schedule-anywhere-api/src/ScheduleAnywhere.Services/obj/Debug/net10.0/ref/ScheduleAnywhere.Services.dll

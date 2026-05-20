@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ScheduleAnywhere.Api/ScheduleAnywhere.Api.csproj" />
+    <Project Path="src/ScheduleAnywhere.Core/ScheduleAnywhere.Core.csproj" />
+    <Project Path="src/ScheduleAnywhere.Infrastructure/ScheduleAnywhere.Infrastructure.csproj" />
+    <Project Path="src/ScheduleAnywhere.Services/ScheduleAnywhere.Services.csproj" />
+  </Folder>
+</Solution>
