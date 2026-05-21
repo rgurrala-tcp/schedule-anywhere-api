@@ -107,6 +107,7 @@ try
     builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
     // ── Services ──────────────────────────────────────────────────────────────
+    builder.Services.AddScoped<IAuthService, AuthService>();
     builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
     builder.Services.AddScoped<IEmployeeService, EmployeeService>();
     builder.Services.AddScoped<IScheduleService, ScheduleService>();

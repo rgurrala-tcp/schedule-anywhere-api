@@ -11,7 +11,7 @@ public class RoleEntityConfiguration : IEntityTypeConfiguration<RoleEntity>
         b.ToTable("t_role");
         b.HasKey(r => r.Id);
         b.Property(r => r.Id).HasColumnName("id_i");
-        b.Property(r => r.Name).HasColumnName("name_nvc").HasMaxLength(100);
-        b.Property(r => r.Description).HasColumnName("description_nvc");
+        b.Property(r => r.Name).HasColumnName("name_vc").HasMaxLength(100);
+        b.Property(r => r.Description).HasColumnName("description_vc");
     }
 }

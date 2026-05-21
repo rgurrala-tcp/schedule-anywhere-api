@@ -32,3 +32,42 @@ public class RequirementRowConfiguration : IEntityTypeConfiguration<RequirementR
         b.HasOne(r => r.CoverageWatch).WithMany(c => c.RequirementRows).HasForeignKey(r => r.CoverageWatchId);
     }
 }
+
+public class CoverageWatchDepartmentConfiguration : IEntityTypeConfiguration<CoverageWatchDepartment>
+{
+    public void Configure(EntityTypeBuilder<CoverageWatchDepartment> b)
+    {
+        b.ToTable("t_mapCoverageWatchDepartment");
+        b.HasKey(c => new { c.CoverageWatchId, c.DepartmentId });
+        b.Property(c => c.CoverageWatchId).HasColumnName("coveragewatch_id_i");
+        b.Property(c => c.DepartmentId).HasColumnName("department_id_i");
+        b.HasOne(c => c.CoverageWatch).WithMany(cw => cw.Departments).HasForeignKey(c => c.CoverageWatchId);
+        b.HasOne(c => c.Department).WithMany().HasForeignKey(c => c.DepartmentId);
+    }
+}
+
+public class CoverageWatchPositionConfiguration : IEntityTypeConfiguration<CoverageWatchPosition>
+{
+    public void Configure(EntityTypeBuilder<CoverageWatchPosition> b)
+    {
+        b.ToTable("t_mapCoverageWatchPosition");
+        b.HasKey(c => new { c.CoverageWatchId, c.PositionId });
+        b.Property(c => c.CoverageWatchId).HasColumnName("coveragewatch_id_i");
+        b.Property(c => c.PositionId).HasColumnName("position_id_i");
+        b.HasOne(c => c.CoverageWatch).WithMany(cw => cw.Positions).HasForeignKey(c => c.CoverageWatchId);
+        b.HasOne(c => c.Position).WithMany().HasForeignKey(c => c.PositionId);
+    }
+}
+
+public class CoverageWatchShiftConfiguration : IEntityTypeConfiguration<CoverageWatchShift>
+{
+    public void Configure(EntityTypeBuilder<CoverageWatchShift> b)
+    {
+        b.ToTable("t_mapCoverageWatchShift");
+        b.HasKey(c => new { c.CoverageWatchId, c.ShiftId });
+        b.Property(c => c.CoverageWatchId).HasColumnName("coveragewatch_id_i");
+        b.Property(c => c.ShiftId).HasColumnName("shift_id_i");
+        b.HasOne(c => c.CoverageWatch).WithMany(cw => cw.Shifts).HasForeignKey(c => c.CoverageWatchId);
+        b.HasOne(c => c.Shift).WithMany().HasForeignKey(c => c.ShiftId);
+    }
+}

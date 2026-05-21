@@ -37,7 +37,7 @@ public class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
         b.Property(e => e.Deactivated).HasColumnName("deactivated_dt");
         b.Property(e => e.LastLogin).HasColumnName("lastlogin_dt");
         b.Property(e => e.LastModifiedDateTime).HasColumnName("lastmodifieddatetime_dt");
-        b.Property(e => e.Cost).HasColumnName("cost_m").HasPrecision(18, 4);
+        b.Property(e => e.Cost).HasColumnName("cost_sm").HasPrecision(18, 4);
         b.Property(e => e.CostType).HasColumnName("costtype_i");
 
         b.HasIndex(e => new { e.OrganizationId, e.Username }).IsUnique();
